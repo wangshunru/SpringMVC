@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Eclipse" />
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="SpringMVC" />
+        <module name="SpringMVC2" />
+        <module name="SpringMVCSSM" />
+        <module name="SpringMVCTest" />
+        <module name="TestSpring" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="SpringMVC" target="1.7" />
+      <module name="SpringMVC2" target="1.7" />
+      <module name="SpringMVCSSM" target="1.7" />
+      <module name="SpringMVCTest" target="1.7" />
+      <module name="TestSpring" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
